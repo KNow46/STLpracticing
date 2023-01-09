@@ -1,0 +1,21 @@
+﻿  Source.cpp
+C:\Users\Krzysztof\source\repos\practicingSTL\Source.cpp(87,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\numeric(141,26): warning C4244: "=": konwersja z "_Ty" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Users\Krzysztof\source\repos\practicingSTL\Source.cpp(126): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_Ty std::inner_product<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int,std::plus<double>,double(__cdecl *)(double,double)>(_InIt1,_InIt1,_InIt2,_Ty,_BinOp1,_BinOp2)” funkcji szablon
+          with
+          [
+              _Ty=int,
+              _InIt1=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _InIt2=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _BinOp1=std::plus<double>,
+              _BinOp2=double (__cdecl *)(double,double)
+          ]
+  practicingSTL.vcxproj -> C:\Users\Krzysztof\source\repos\practicingSTL\Debug\practicingSTL.exe
